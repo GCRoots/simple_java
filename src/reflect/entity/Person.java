@@ -32,4 +32,21 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public static void fun1() {
+        System.out.println("function1");
+    }
+
+    public void fun2() {
+        System.out.println("function2");
+    }
+
+    public void fun3(String p) {
+        System.out.println(p + "---->fun3");
+    }
+
+    @SuppressWarnings("unused")
+    private void fun4() {
+        System.out.println("function4");
+    }
 }
