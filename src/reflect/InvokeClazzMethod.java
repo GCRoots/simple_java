@@ -29,19 +29,19 @@ public class InvokeClazzMethod {
         Method priMethod = clazz.getDeclaredMethod("fun4", null);
 
 
-//        System.out.println("[Person类的公共方法及父类方法:]");
-//        for (Method m : methods) {
-//            System.out.println(m);
-//        }
-//        System.out.println("[Person类的私有方法:]");
-//        for (Method m : declaredMethods) {
-//            System.out.println(m);
-//        }
-//        System.out.println("[按方法名和参数类型获取的方法4个方法:]");
-//        System.out.println(staMethod);
-//        System.out.println(nullMethod);
-//        System.out.println(moreMethod);
-//        System.out.println(priMethod);
+        System.out.println("[Person类的公共方法及父类方法:]");
+        for (Method m : methods) {
+            System.out.println(m);
+        }
+        System.out.println("[Person类的私有方法:]");
+        for (Method m : declaredMethods) {
+            System.out.println(m);
+        }
+        System.out.println("[按方法名和参数类型获取的方法4个方法:]");
+        System.out.println(staMethod);
+        System.out.println(nullMethod);
+        System.out.println(moreMethod);
+        System.out.println(priMethod);
 
 
         //使用反射获取到的方法
