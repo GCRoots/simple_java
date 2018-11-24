@@ -35,6 +35,10 @@ public class MyInvocationHandler implements InvocationHandler {
         // 在目标对象的方法执行之后简单的打印一下
         System.out.println("-------------------after------------------");
 
+//        System.out.println(proxy.getClass());
+
+//        System.out.println(proxy.toString());
+
         return result;
     }
 
